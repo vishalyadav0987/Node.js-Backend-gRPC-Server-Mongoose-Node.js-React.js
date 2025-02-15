@@ -1,0 +1,38 @@
+{
+  "name": "node-grpc",
+  "version": "1.0.0",
+  "description": "Node JS grpc example",
+  "main": "index.js",
+  "engines": {
+    "node": "10.16.0",
+    "npm": "6.9.0"
+  },
+  "scripts": {
+    "start-server": "nodemon server.js",
+    "start-client": "nodemon client/app.js"
+  },
+  "author": "Akin",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.1",
+    "bluebird": "^3.5.5",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.17.1",
+    "google-protobuf": "^3.21.4",
+    "grpc": "^1.21.1",
+    "grpc-web": "^1.5.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.14.2",
+    "nodemon": "^1.19.4"
+  }
+}
